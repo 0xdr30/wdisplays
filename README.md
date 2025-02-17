@@ -32,7 +32,8 @@ Check your distro for a `wdisplays` package. Known distro packages:
 - [FreeBSD](https://svnweb.freebsd.org/ports/head/x11/wdisplays/)
 - [Nix](https://github.com/NixOS/nixpkgs/tree/master/pkgs/tools/graphics/wdisplays)
 - [OpenSUSE](https://build.opensuse.org/package/show/home%3AMWh3/wdisplays)
- ## Note: Package will not include the write-to-sway script.
+
+Note: Package will not include the write-to-sway script.
 # Building
 
 Build requirements are:
