@@ -4,6 +4,10 @@
 
 Looks like the [original repository](https://github.com/cyclopsian/wdisplays.git) has disappeared, so since GPL v3 allows I've created a fork of it. Not sure I want to maintain it but for now it won't hurt to have it here.
 
+## Wills Note
+
+I will work on creating a flow between wdisplays and swaywm to automatically write wdisplays configuration to your sway config.
+
 [![License: GPL 3.0 or later][license-img]][license-spdx]
 
 wdisplays is a graphical application for configuring displays in Wayland
