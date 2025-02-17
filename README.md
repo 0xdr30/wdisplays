@@ -42,6 +42,7 @@ Build requirements are:
 - GTK+3
 - epoxy
 - wayland-client
+- wayland-protocols-devel
 
 ```sh
 meson build
