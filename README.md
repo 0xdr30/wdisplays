@@ -45,6 +45,7 @@ Build requirements are:
 - wayland-protocols-devel
 
 ```sh
+cd /path/to/wdisplays
 sudo mv ./src/write-to-sway.sh /usr/bin/
 meson build
 ninja -C build
