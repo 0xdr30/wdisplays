@@ -45,7 +45,7 @@ Build requirements are:
 - wayland-protocols-devel
 
 ```sh
-git clone
+git clone https://github.com/0xdr30/wdisplays.git
 cd wdisplays
 chmod +x write-to-sway.sh && mkdir ~/.config/wdisplay-scripts && mv write-to-sway.sh ~/.config/wdisplay-scripts
 meson build
