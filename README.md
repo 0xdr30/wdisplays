@@ -2,6 +2,7 @@
 
 ## Will's Note
 Forked from [luispabon](https://github.com/luispabon/wdisplays)
+
 This allows wdisplays to write to the sway config file so you don't have to when you reload swaywm.
 
 Right now it only looks for ~/.config/sway/config, so you should create that for this to work for you.
