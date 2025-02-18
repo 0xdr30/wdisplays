@@ -7,7 +7,7 @@ This allows wdisplays to write to the sway config file so you don't have to when
 
 Right now it only looks for ~/.config/sway/config, so you should create that for this to work for you.
 
-Its like kanshi without the kanshi.
+Its like [kanshi](https://wayland.emersion.fr/kanshi/) without the kanshi.
 
 ![Screenshot](wdisplays.png)
 
