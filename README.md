@@ -68,7 +68,7 @@ There are some options available by clicking the menu button on the top left:
 
 It's intended to be the Wayland equivalent of an xrandr GUI, like [ARandR].
 
-~~### I'm using Sway, why aren't my display settings saved when I log out?
+### ~~ I'm using Sway, why aren't my display settings saved when I log out?
 
 Sway, like i3, doesn't save any settings unless you put them in the config
 file. See man `sway-output`. If you want to have multiple configurations
