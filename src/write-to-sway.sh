@@ -17,7 +17,8 @@ for display in $displays; do
   # Example: 1920x1080+0+0 --> 1920x1080
   resolution=$(echo $resolution | awk -F '[ +]' '{print $1}')
   # Sends the display name, coordinates, and resolution to the bottom of the sway config
-  # TODO: Update the line that contains output configuration instead of just adding a new line
+  # Remove the current display configuration
+  sed -i "/output $display/d" ~/.config/sway/config
+  # Add the new display configuration
   echo "output $display pos $x $y res $resolution" >> ~/.config/sway/config
 done
-
