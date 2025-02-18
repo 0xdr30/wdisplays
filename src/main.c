@@ -3,7 +3,7 @@
 
 #include <gtk/gtk.h>
 #include <gdk/gdkwayland.h>
-
+#include <stdlib.h>
 #include "wdisplays.h"
 #include "glviewport.h"
 #include "headform.h"
@@ -50,6 +50,7 @@ static gboolean send_apply(gpointer data) {
   struct wl_display *wl_display = gdk_wayland_display_get_wl_display(display);
   wd_apply_state(state, outputs, wl_display);
   state->apply_pending = FALSE;
+  system("~/.config/wdisplays-scripts/write-to-sway.sh')
   return FALSE;
 }
 
