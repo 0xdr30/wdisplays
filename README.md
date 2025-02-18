@@ -76,7 +76,7 @@ It's intended to be the Wayland equivalent of an xrandr GUI, like [ARandR].
 
 ### I'm using Sway, why aren't my display settings saved when I log out?
 
-This fork fixes that. If you plan on changing window managers or want something dynamic then I highly recomment [kanshi](https://wayland.emersion.fr/kanshi/).
+This fork fixes that. If you plan on changing window managers or want something dynamic then I highly recommend [kanshi](https://wayland.emersion.fr/kanshi/).
 
 I created this because I was pissed off at sway not working, and didn't find out about kanshi until I was done making it haha.
 
