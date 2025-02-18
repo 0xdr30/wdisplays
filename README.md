@@ -46,7 +46,7 @@ Build requirements are:
 ```sh
 git clone https://github.com/0xdr30/wdisplays.git
 cd wdisplays
-chmod +x write-to-sway.sh && mkdir ~/.config/wdisplay-scripts && mv write-to-sway.sh ~/.config/wdisplay-scripts
+chmod +x write-to-sway.sh && mkdir ~/.config/wdisplays-scripts && mv write-to-sway.sh ~/.config/wdisplays-scripts/
 meson build
 ninja -C build
 sudo ninja -C build install
