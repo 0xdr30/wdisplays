@@ -9,6 +9,10 @@ Right now it only looks for ~/.config/sway/config, so you should create that for
 
 Its like [kanshi](https://wayland.emersion.fr/kanshi/) without the kanshi.
 
+# Future
+
+I would like to expand on the gui with kanshi, but I need to learn C first.
+
 ![Screenshot](wdisplays.png)
 
 # Installation
