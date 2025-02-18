@@ -1,20 +1,10 @@
-# wdisplays
-
-## Luis' Note
-
-Looks like the [original repository](https://github.com/cyclopsian/wdisplays.git) has disappeared, so since GPL v3 allows I've created a fork of it. Not sure I want to maintain it but for now it won't hurt to have it here.
+# wdisplays-sway
 
 ## Will's Note
-I created a script to automatically write changes from wdisplay to the sway config file
+Forked from [luispabon](https://github.com/luispabon/wdisplays)
+This allows wdisplays to write to the sway config file so you don't have to when you reload swaywm.
 
-[![License: GPL 3.0 or later][license-img]][license-spdx]
-
-wdisplays is a graphical application for configuring displays in Wayland
-compositors. It borrows some code from [kanshi]. It should work in any
-compositor that implements the wlr-output-management-unstable-v1 protocol.
-Compositors that are known to support the protocol are [Sway] and [Wayfire].
-The goal of this project is to allow precise adjustment of display settings in
-kiosks, digital signage, and other elaborate multi-monitor setups.
+Right now it only looks for ~/.config/sway/config, so you should create that for this to work for you.
 
 ![Screenshot](wdisplays.png)
 
@@ -96,6 +86,15 @@ implementation on top of tinywl: [tinywl-output-management].
 [ARandR]: https://christian.amsuess.com/tools/arandr/
 [tinywl-output-management]: https://git.sr.ht/~jf/tinywl-output-management/commit/87a45d89ae0e7975e2a59f84e960380dd2f5ac08
 
+
+[![License: GPL 3.0 or later][license-img]][license-spdx]
+
+wdisplays is a graphical application for configuring displays in Wayland
+compositors. It borrows some code from [kanshi]. It should work in any
+compositor that implements the wlr-output-management-unstable-v1 protocol.
+Compositors that are known to support the protocol are [Sway] and [Wayfire].
+The goal of this project is to allow precise adjustment of display settings in
+kiosks, digital signage, and other elaborate multi-monitor setups.
 [license-img]:  https://img.shields.io/badge/License-GPL%203.0%20or%20later-blue.svg?logo=gnu
 [license-spdx]: https://spdx.org/licenses/GPL-3.0-or-later.html
 [repology-img]: https://repology.org/badge/tiny-repos/wdisplays.svg
